@@ -2,7 +2,8 @@
 
 int sum(int a, int b); //function prototype
 
-int main() {
+int main()
+{
     int a,b;
     printf("Enter two numbers:");
     scanf("%d %d", &a,&b);
@@ -12,6 +13,7 @@ int main() {
     return 0;
 }
 //function definition
-int sum(int a, int b) {
+int sum(int a, int b) 
+{
     return a+b;
 }

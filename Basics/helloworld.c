@@ -5,7 +5,8 @@ Comments
 Work 
 Like 
 This*/
-int main(){
+int main()
+{
     //printf("Hello World\n");
     int num = 25; //first letter of var name must be an alphabet or "_" --> only symbol allowed
     char star[100] = "\tDharmik\nThis a new language for me";//"\\"--> To enter backslash, "\""--> To enter Double Quotes

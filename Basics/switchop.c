@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int overallMarks;
 
     printf("Enter overall marks in the subject: ");

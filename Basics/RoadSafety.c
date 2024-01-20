@@ -13,18 +13,22 @@ int main(){
     printf("\nPlease enter your age: ");
     scanf("%d", &age);
 
-    if (age>=18){
+    if (age>=18)
+    {
         printf("\nDo you have a Driving Licence (Y/N) : ");
         scanf("%s", &dl);
 
-        if (dl == 'Y' || dl == 'y'){
+        if (dl == 'Y' || dl == 'y')
+        {
             printf("\n\t\tYou are legally allowed to drive.\n\n");
-
-        }else{
-            printf("\n\t\tYou are eligible to Apply for a Driving Licence.\n\n");
-        
         }
-    }else{
+        else
+        {
+            printf("\n\t\tYou are eligible to Apply for a Driving Licence.\n\n");
+        }
+    }
+    else
+    {
         printf("\n\t\tYou are under the legal driving age.\n\n");
     }
     return 0;

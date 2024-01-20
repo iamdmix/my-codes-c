@@ -5,7 +5,8 @@ Condition ? Do if TRUE : Do if FALSE;
 */
 #include<stdio.h>
 
-int main(){
+int main()
+{
     int age;
     printf("Enter age: ");
     scanf("%d",&age);
