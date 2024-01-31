@@ -1,0 +1,18 @@
+Pointers are those variables who store the memory location of another variable
+For example:
+    int age = 22
+    int *ptr = &aage     Here the * is called value at address operator
+                         And the & is called address of operator
+    Wherever we use &, we get the address of the variable and 
+    Wherever we use *, we get the value of the variable
+    int _age = *ptr     So _age will contain the value of age and not it's address
+The data type of the pointer and the variable must be same
+
+Format Specifiers:
+    • %p stands for pointer adderess. (Usually Hexadecimal)
+    • To print it in a relatively more understandable form
+    it is type casted to an unsigned integer (%u)
+
+Pointer to Pointer: is a variable that stores the location of a pointer
+instead of a single *, ptp will use **.
+
