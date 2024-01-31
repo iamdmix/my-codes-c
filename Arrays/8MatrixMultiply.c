@@ -68,4 +68,4 @@ int main()
     }
     else printf("\nMatrix multiplication cannot be done for the entered indices\n");
     return 0;
-}g
+}
