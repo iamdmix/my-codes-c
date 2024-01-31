@@ -16,3 +16,7 @@ Format Specifiers:
 Pointer to Pointer: is a variable that stores the location of a pointer
 instead of a single *, ptp will use **.
 
+Pointers in Function Call:
+    •Call by value: We pass variables as arguments
+    •Call by reference: We pass address of variables as arguments
+    To know in detail refer "CBVvsCBR.c"
