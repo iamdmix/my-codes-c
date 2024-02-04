@@ -1,3 +1,4 @@
+//To write a program to take number of days and first day of month as input and to print the
 #include <stdio.h>
 
 int main() {
