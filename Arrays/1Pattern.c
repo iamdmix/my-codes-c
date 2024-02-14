@@ -32,7 +32,7 @@ int main()
           //To print the digits in ascending order from 2
           for(int j=2; j<=i; j++)
           {
-               printf("%d",j);
+               printf("%d",j);    
           }
 
           //To go to the next line.
